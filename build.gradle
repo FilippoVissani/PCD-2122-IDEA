@@ -22,7 +22,7 @@ dependencies {
     implementation 'io.vertx:vertx-web-client:4.3.1'
     implementation 'io.reactivex.rxjava3:rxjava:3.1.5'
     implementation 'com.github.javaparser:javaparser-symbol-solver-core:3.24.2'
-    implementation platform("com.typesafe.akka:akka-bom_${versions.ScalaBinary}:2.6.19")
+    implementation platform("com.typesafe.akka:akka-bom_${versions.ScalaBinary}:2.6.21")
     implementation "com.typesafe.akka:akka-actor-typed_${versions.ScalaBinary}"
     implementation 'com.rabbitmq:amqp-client:5.14.2'
     implementation 'org.slf4j:slf4j-api:1.7.36'
