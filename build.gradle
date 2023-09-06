@@ -19,7 +19,7 @@ dependencies {
 
     implementation 'io.vertx:vertx-core:4.3.1'
     implementation 'io.vertx:vertx-web:4.3.1'
-    implementation 'io.vertx:vertx-web-client:4.3.1'
+    implementation 'io.vertx:vertx-web-client:4.4.5'
     implementation 'io.reactivex.rxjava3:rxjava:3.1.5'
     implementation 'com.github.javaparser:javaparser-symbol-solver-core:3.24.2'
     implementation platform("com.typesafe.akka:akka-bom_${versions.ScalaBinary}:2.6.19")
